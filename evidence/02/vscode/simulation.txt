@@ -1,0 +1,16 @@
+ *  Executing task in folder PROJECT: C:\Users\a2391\AppData\Local\Microsoft\WindowsApps\python.EXE tools/lab1.py simulate 
+
+RUN C:\iverilog\bin\iverilog.EXE -g2012 -Wall -I C:\Users\a2391\lab1_03_adder4\src -I C:\Users\a2391\lab1_03_adder4\sim -s tb_adder_4bit -o C:\Users\a2391\lab1_03_adder4\build\sim\run-ab29af9781f54a0985cb9103dbb278d6\sim.vvp C:\Users\a2391\lab1_03_adder4\src\adder_4bit.v C:\Users\a2391\lab1_03_adder4\sim\tb_adder_4bit.sv
+warning: Some design elements have no explicit time unit and/or
+       : time precision. This may cause confusing timing results.
+       : Affected design elements are:
+       :   -- module adder_4bit declared here: C:\Users\a2391\lab1_03_adder4\src\adder_4bit.v:1
+
+RUN C:\iverilog\bin\vvp.EXE -N C:\Users\a2391\lab1_03_adder4\build\sim\run-ab29af9781f54a0985cb9103dbb278d6\sim.vvp
+VCD info: dumpfile wave.vcd opened for output.
+LAB1_PASS adder_4bit cases=256
+C:\Users\a2391\lab1_03_adder4\sim\tb_adder_4bit.sv:19: $finish called at 2560000 (1ps)
+
+시뮬레이션 실행 완료. 진리표·자기검사·파형으로 회로의 정답 여부를 확인하세요.
+WAVE C:\Users\a2391\lab1_03_adder4\build\sim\wave.vcd
+ *  Terminal will be reused by tasks, press any key to close it. 
