@@ -20,7 +20,7 @@ Close Simulation → Run Synthesis → Run Implementation → Generate Bitstream
 
 ## 보드 기록·촬영 상태
 
-Hardware Manager를 통해 비트스트림을 보드에 프로그래밍했습니다. DIP1~4를 a[3:0], DIP5~8을 b[3:0]에 매핑하고, LED1(cout) 및 LED2~5(s[3:0])의 출력을 관측했습니다.
+Hardware Manager를 통해 비트스트림을 보드에 프로그래밍했습니다. DIP1\~4를 a[3:0], DIP5\~8을 b[3:0]에 매핑하고, LED1(cout) 및 LED2~5(s[3:0])의 출력을 관측했습니다.
 
 | 조건(a+b) | 시뮬레이션 cout,s | 실측 cout,s | 사진 |
 |---|---|---|---|
